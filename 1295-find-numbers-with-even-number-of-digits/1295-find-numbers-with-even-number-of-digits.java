@@ -5,10 +5,10 @@ class Solution {
 
         for (int i = 0; i < nums.length; i++) {
         int nod = 0;
-            int num = nums[i];
+            // int num = nums[i];
 
-            while (num > 0) {
-                num /= 10;
+            while (nums[i] > 0) {
+                nums[i] /= 10;
                 nod++;
             }
             if (nod % 2 == 0) {
