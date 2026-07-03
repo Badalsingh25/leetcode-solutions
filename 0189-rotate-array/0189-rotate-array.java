@@ -4,20 +4,20 @@ class Solution {
         int n = nums.length;
         k = k % n;
 
-        reverse(nums, 0, n - 1);
-        reverse(nums, 0, k - 1);
-        reverse(nums, k, n - 1);
+        reverse(nums, 0, n - 1); // Reverse whole Array
+        reverse(nums, 0, k - 1); // Reverse first k
+        reverse(nums, k, n - 1); // Reverse remaining
     }
 
-    public void reverse(int[] nums, int i, int j) {
+    public void reverse(int[] nums, int left, int right) {
 
-        while (i <= j) {
-            int temp = nums[i];
-            nums[i] = nums[j];
-            nums[j] = temp;
+        while (left < right) {
+            int temp = nums[left];
+            nums[left] = nums[right];
+            nums[right] = temp;
 
-            i++;
-            j--;
+            left++;
+            right--;
         }
     }
 }
