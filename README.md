@@ -32,11 +32,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0415-add-strings](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0415-add-strings) |
 | [1929-concatenation-of-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 ## Math
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0189-rotate-array) |
+| [0415-add-strings](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0415-add-strings) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 ## Sorting
 |  |
@@ -62,4 +64,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0344-reverse-string) |
+| [0415-add-strings](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0415-add-strings) |
 <!---LeetCode Topics End-->
