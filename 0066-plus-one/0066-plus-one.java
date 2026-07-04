@@ -1,15 +1,16 @@
 class Solution {
     public int[] plusOne(int[] digits) {
 
+        int i = digits.length - 1;
+        int carry = 1;
         int[] result = new int[digits.length + 1];
         int s = result.length - 1;
-        int carry = 1;
-        int i = digits.length - 1;
 
-        while (carry > 0 || i >= 0) {
+        while (i >= 0 || carry > 0) {
+
             if (i >= 0)
                 carry += digits[i--];
-            result[s--] = carry % 10;
+            result[s--] = (carry % 10);
             carry /= 10;
         }
         if (result[0] == 0) {
