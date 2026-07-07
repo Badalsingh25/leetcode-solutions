@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
@@ -55,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0977-squares-of-a-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
@@ -94,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0169-majority-element) |
 | [0387-first-unique-character-in-a-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 ## Trie
 |  |
@@ -103,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0169-majority-element) |
 ## Dynamic Programming
 |  |
 | ------- |
