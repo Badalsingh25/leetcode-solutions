@@ -7,7 +7,7 @@ class Solution {
         int[] current = intervals[0];
 
         for (int i = 1; i < intervals.length; i++) {
-            if (intervals[i][0] <= current[1]) {
+            if (current[1] >= intervals[i][0]) {
                 current[1] = Math.max(current[1], intervals[i][1]);
             } else {
                 result.add(current);
