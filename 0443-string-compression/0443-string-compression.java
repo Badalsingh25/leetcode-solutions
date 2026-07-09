@@ -1,7 +1,7 @@
 class Solution {
     public int compress(char[] chars) {
 
-        int count = 1, k = 0;
+        int k = 0, count = 1;
 
         for (int i = 1; i <= chars.length; i++) {
             if (i < chars.length && chars[i] == chars[i - 1]) {
