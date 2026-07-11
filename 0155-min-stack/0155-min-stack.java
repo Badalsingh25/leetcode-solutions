@@ -4,8 +4,10 @@ class MinStack {
     Stack<Integer> minStack; // Stores only minimum elements
 
     public MinStack() {
-        stack = new Stack<>();
-        minStack = new Stack<>();
+        stack = new Stack();
+        minStack = new Stack();
+        // stack = new Stack<>();
+        // minStack = new Stack<>();
     }
     
     public void push(int value) {
