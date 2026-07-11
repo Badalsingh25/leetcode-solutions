@@ -1,11 +1,11 @@
 class MinStack {
 
-    Stack<Integer> stack; // Stores All Elements
-    Stack<Integer> minStack; // Stores only minimum elements
+    Stack<Integer> stack= new Stack(); // Stores All Elements
+    Stack<Integer> minStack= new Stack(); // Stores only minimum elements
 
     public MinStack() {
-        stack = new Stack();
-        minStack = new Stack();
+        // stack = new Stack();
+        // minStack = new Stack();
         // stack = new Stack<>();
         // minStack = new Stack<>();
     }
