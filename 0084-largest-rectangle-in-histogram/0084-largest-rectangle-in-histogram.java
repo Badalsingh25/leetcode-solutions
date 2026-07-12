@@ -6,10 +6,11 @@ class Solution {
         int width = 1;
         int maxArea = 0;
         int currentArea = 0;
-        int[] leftSmaller = new int[heights.length];
-        int[] rightSmaller = new int[heights.length];
+        int n = heights.length;
+        int[] leftSmaller = new int[n];
+        int[] rightSmaller = new int[n];
 
-        for (int i = 0; i < heights.length; i++) {
+        for (int i = 0; i < n; i++) {
             while (!stack.isEmpty() && heights[stack.peek()] >= heights[i]) {
                 stack.pop();
             }
@@ -19,14 +20,14 @@ class Solution {
 
         stack.clear();
 
-        for (int i = heights.length - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) {
             while (!stack.isEmpty() && heights[stack.peek()] >= heights[i]) {
                 stack.pop();
             }
-            rightSmaller[i] = stack.isEmpty() ? heights.length : stack.peek();
+            rightSmaller[i] = stack.isEmpty() ? n : stack.peek();
             stack.push(i);
         }
-        for (int i = 0; i < heights.length; i++) {
+        for (int i = 0; i < n; i++) {
             width = rightSmaller[i] - leftSmaller[i] - 1;
             currentArea = heights[i] * width;
             maxArea = Math.max(maxArea, currentArea);
