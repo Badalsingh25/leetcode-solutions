@@ -13,21 +13,17 @@ class Solution {
             while (!stack.isEmpty() && heights[stack.peek()] >= heights[i]) {
                 stack.pop();
             }
-            if (stack.isEmpty())
-                leftSmaller[i] = -1;
-            else
-                leftSmaller[i] = stack.peek();
+            leftSmaller[i] = stack.isEmpty() ? -1: stack.peek();
             stack.push(i);
         }
+
         stack.clear();
+
         for (int i = heights.length - 1; i >= 0; i--) {
             while (!stack.isEmpty() && heights[stack.peek()] >= heights[i]) {
                 stack.pop();
             }
-            if (stack.isEmpty())
-                rightSmaller[i] = heights.length;
-            else
-                rightSmaller[i] = stack.peek();
+            rightSmaller[i] = stack.isEmpty() ? heights.length : stack.peek();
             stack.push(i);
         }
         for (int i = 0; i < heights.length; i++) {
