@@ -1,9 +1,11 @@
 class MyQueue {
 
-    Stack<Integer> input = new Stack<>();
-    Stack<Integer> output = new Stack<>();
+    Stack<Integer> input;
+    Stack<Integer> output;
 
     public MyQueue() {
+        input = new Stack<>();
+        output = new Stack<>();
 
     }
 
