@@ -17,8 +17,8 @@ class Solution {
         while (curr != null) {
             ListNode next = curr.next; // store next node
             curr.next = prev; // reverse link
-            prev = curr;
-            curr = next;
+            prev = curr; // move prev
+            curr = next; // move curr
 
         }
         return prev;
