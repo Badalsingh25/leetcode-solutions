@@ -6,7 +6,7 @@ class Solution {
         for (int num : piles) {
             max = Math.max(max, num);
         }
-        int low = 0, high = max, speed = max;
+        int low = 1, high = max, speed = max;
 
         while (low <= high) {
             int sp = low + (high - low) / 2;
