@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0724-find-pivot-index) |
+| [0875-koko-eating-bananas](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0941-valid-mountain-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0941-valid-mountain-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1295-find-numbers-with-even-number-of-digits) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0349-intersection-of-two-arrays](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0704-binary-search](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 ## Two Pointers
 |  |
 | ------- |
