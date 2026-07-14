@@ -24,10 +24,10 @@ class LRUCache {
     }
 
     public int get(int key) {
-        if (!map.containsKey(key))
+        Node node = map.get(key);
+        if (node == null)
             return -1;
 
-        Node node = map.get(key);
         remove(node);
         insertAtFront(node);
         return node.value;
