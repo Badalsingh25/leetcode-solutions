@@ -6,7 +6,6 @@ class MyQueue {
     public MyQueue() {
         input = new Stack<>();
         output = new Stack<>();
-
     }
 
     public void push(int x) {
@@ -14,6 +13,7 @@ class MyQueue {
     }
 
     public int pop() {
+
         if (output.isEmpty()) {
             while (!input.isEmpty()) {
                 output.push(input.pop());
@@ -23,6 +23,7 @@ class MyQueue {
     }
 
     public int peek() {
+
         if (output.isEmpty()) {
             while (!input.isEmpty()) {
                 output.push(input.pop());
