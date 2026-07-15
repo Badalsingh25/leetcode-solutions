@@ -15,17 +15,17 @@ class Solution {
         ListNode tail = dummy;
         int carry = 0;
 
-        ListNode pA = l1;
-        ListNode pB = l2;
+        // ListNode pA = l1;
+        // ListNode pB = l2;
 
-        while (pA != null || pB != null || carry != 0) {
-            if (pA != null) {
-                carry += pA.val;
-                pA = pA.next;
+        while (l1 != null || l2 != null || carry != 0) {
+            if (l1 != null) {
+                carry += l1.val;
+                l1 = l1.next;
             }
-            if (pB != null) {
-                carry += pB.val;
-                pB = pB.next;
+            if (l2 != null) {
+                carry += l2.val;
+                l2 = l2.next;
             }
             tail.next = new ListNode(carry % 10);
             tail = tail.next;
