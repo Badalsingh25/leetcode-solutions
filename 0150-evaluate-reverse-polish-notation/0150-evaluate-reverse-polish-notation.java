@@ -11,9 +11,9 @@ class Solution {
                     break;
 
                 case "-":
-                    int a1 = stack.pop();
-                    int b1 = stack.pop();
-                    stack.push(b1 - a1);
+                    int a = stack.pop();
+                    int b = stack.pop();
+                    stack.push(b - a);
                     break;
 
                 case "*":
@@ -21,9 +21,9 @@ class Solution {
                     break;
 
                 case "/":
-                    int a2 = stack.pop();
-                    int b2 = stack.pop();
-                    stack.push(b2 / a2);
+                    int c = stack.pop();
+                    int d = stack.pop();
+                    stack.push(d / c);
                     break;
 
                 default:
