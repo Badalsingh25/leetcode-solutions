@@ -32,7 +32,7 @@ class Solution {
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
 
-       List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         backtrack(nums, 0, result);
         return result;
     }
