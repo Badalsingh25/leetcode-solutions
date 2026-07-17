@@ -8,7 +8,7 @@ class Solution {
         return list;
     }
 
-    private void backtrack(int start, int[] nums, List<Integer> current, List<List<Integer>> result) {
+    private static void backtrack(int start, int[] nums, List<Integer> current, List<List<Integer>> result) {
 
         result.add(new ArrayList<>(current));
 
