@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
+| [0078-subsets](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -244,4 +245,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
