@@ -38,18 +38,18 @@ class Solution {
 
         Arrays.sort(nums);
         List<List<Integer>> list = new ArrayList<>();
-        backtrack(0, nums, list);
+        backtrack(nums, 0, list);
         return list;
     }
 
-    private void backtrack(int start, int[] nums, List<List<Integer>> result) {
+    private void backtrack(int[] nums, int start, List<List<Integer>> list) {
 
         if (start == nums.length) {
             List<Integer> perm = new ArrayList<>();
             for (int num : nums) {
                 perm.add(num);
             }
-            result.add(perm);
+            list.add(perm);
             return;
         }
         Set<Integer> used = new HashSet<>();
@@ -59,14 +59,14 @@ class Solution {
             used.add(nums[i]);
 
             swap(nums, start, i);
-            backtrack(start + 1, nums, result);
+            backtrack(nums, start + 1, list);
             swap(nums, start, i);
         }
     }
 
-    private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+    private void swap(int[] nums, int left, int right) {
+        int temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
     }
 }
