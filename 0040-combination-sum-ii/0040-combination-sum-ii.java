@@ -3,22 +3,26 @@ class Solution {
 
         Arrays.sort(candidates);
         List<List<Integer>> list = new ArrayList<>();
-        backtrack(0, candidates, target, new ArrayList<>(), list);
+        backtrack(candidates, 0, target, new ArrayList<>(), list);
         return list;
     }
 
-    public void backtrack(int start, int[] candidates, int target, List<Integer> temp, List<List<Integer>> result){
+    public static void backtrack(int[] candidates, int start, int target, List<Integer> temp,
+            List<List<Integer>> result) {
 
-        if(target == 0) {
+        if (target == 0) {
             result.add(new ArrayList<>(temp));
             return;
         }
-        for(int i = start; i < candidates.length;i++){
-            if(i > start && candidates[i] == candidates[i - 1]) continue;
-            if(candidates[i] > target) break;
+        for (int i = start; i < candidates.length; i++) {
+
+            if (i > start && candidates[i] == candidates[i - 1])
+                continue;
+            if (candidates[i] > target)
+                break;
 
             temp.add(candidates[i]);
-            backtrack(i + 1, candidates, target - candidates[i], temp, result);
+            backtrack(candidates, i + 1, target - candidates[i], temp, result);
             temp.remove(temp.size() - 1);
         }
     }
