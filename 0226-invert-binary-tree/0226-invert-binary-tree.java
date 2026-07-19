@@ -18,12 +18,13 @@ class Solution {
         
         if(root == null) return null;
 
+        // swap between root.left and root.right
         TreeNode temp = root.left;
         root.left = root.right;
         root.right = temp;
 
-        invertTree(root.left);
-        invertTree(root.right);
+        invertTree(root.left); // inverse left subtree
+        invertTree(root.right); // inverse left subtree
 
         return root;
     }
