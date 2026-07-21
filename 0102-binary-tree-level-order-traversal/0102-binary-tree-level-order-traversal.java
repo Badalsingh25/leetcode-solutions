@@ -32,8 +32,10 @@ class Solution {
 
                 TreeNode node = queue.poll();
                 current.add(node.val);
+
                 if (node.left != null)
                     queue.offer(node.left);
+                    
                 if (node.right != null)
                     queue.offer(node.right);
             }
