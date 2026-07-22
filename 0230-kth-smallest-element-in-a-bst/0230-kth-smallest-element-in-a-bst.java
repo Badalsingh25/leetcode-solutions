@@ -23,7 +23,6 @@ class Solution {
         inorderTraversal(root, k);
         return ans;
     }
-
     private void inorderTraversal(TreeNode root, int k) {
 
         if (root == null)
@@ -33,6 +32,7 @@ class Solution {
         count++;
         if (count == k) {
             ans = root.val;
+            return;
         }
         inorderTraversal(root.right, k);
     }
