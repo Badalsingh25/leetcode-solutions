@@ -27,13 +27,18 @@ class Solution {
 
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
-                if(i == size - 1) list.add(node.val);
 
-                if (node.left != null )
+                // Last node of the current level is visible from the right
+                if (i == size - 1)
+                    list.add(node.val);
+
+                // visit Left child
+                if (node.left != null)
                     queue.offer(node.left);
+
+                // visit right child
                 if (node.right != null)
                     queue.offer(node.right);
-
             }
         }
         return list;
