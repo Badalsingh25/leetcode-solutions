@@ -20,7 +20,8 @@ class Solution {
         if (root == null)
             return list;
 
-        Queue<TreeNode> queue = new ArrayDeque<>();
+        // Queue<TreeNode> queue = new ArrayDeque<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
         boolean leftToRight = true;
@@ -30,15 +31,14 @@ class Solution {
             // List<Integer> current = new ArrayList<>();
             LinkedList<Integer> current = new LinkedList<>();
             for (int i = 0; i < size; i++) {
-                    TreeNode node = queue.poll();
+                TreeNode node = queue.poll();
 
-                if (leftToRight) {
+                if (leftToRight)
                     // current.add(node.val); // add element end of the list
                     current.addLast(node.val);
-                } else {
+                else
                     // current.add(0, node.val); // Another method to add element in beginning of the list(index, value)
                     current.addFirst(node.val);
-                }
 
                 if (node.left != null)
                     queue.offer(node.left);
