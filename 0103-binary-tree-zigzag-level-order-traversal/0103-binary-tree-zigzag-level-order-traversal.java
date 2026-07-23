@@ -27,15 +27,17 @@ class Solution {
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            List<Integer> current = new ArrayList<>();
-
+            // List<Integer> current = new ArrayList<>();
+            LinkedList<Integer> current = new LinkedList<>();
             for (int i = 0; i < size; i++) {
                     TreeNode node = queue.poll();
 
                 if (leftToRight) {
-                    current.add(node.val);
+                    // current.add(node.val); // add element end of the list
+                    current.addLast(node.val);
                 } else {
-                    current.add(0, node.val);
+                    // current.add(0, node.val); // Another method to add element in beginning of the list(index, value)
+                    current.addFirst(node.val);
                 }
 
                 if (node.left != null)
