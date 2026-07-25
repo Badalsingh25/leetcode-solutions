@@ -18,13 +18,13 @@ class Solution {
         if (root == null)
             return false;
 
-        if (isIdentical(root, subRoot))
+        if (isSameTree(root, subRoot))
             return true;
 
         return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
     }
 
-    public boolean isIdentical(TreeNode p, TreeNode q) {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null)
             return true;
         if (p == null || q == null)
@@ -32,7 +32,7 @@ class Solution {
         if (p.val != q.val)
             return false;
 
-        return isIdentical(p.left, q.left) && isIdentical(p.right, q.right);
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 
     }
 }
