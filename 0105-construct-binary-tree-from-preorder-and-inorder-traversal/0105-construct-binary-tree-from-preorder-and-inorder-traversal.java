@@ -30,8 +30,7 @@ class Solution {
 
         if (left > right) return null;
 
-        TreeNode root = new TreeNode(preorder[preorderIndex]);
-        preorderIndex++;
+        TreeNode root = new TreeNode(preorder[preorderIndex++]);
 
         int inorderIndex = map.get(root.val); 
 
