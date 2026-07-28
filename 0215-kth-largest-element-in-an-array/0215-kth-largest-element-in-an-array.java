@@ -6,11 +6,9 @@ class Solution {
         for (int num : nums) {
             minHeap.offer(num);
 
-            if (minHeap.size() > k) {
+            if (minHeap.size() > k)
                 minHeap.poll();
-            }
         }
-
         return minHeap.peek();
     }
 }
