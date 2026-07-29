@@ -50,22 +50,16 @@ class Solution {
 
         PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) -> map.get(a) - map.get(b));
 
-        for(int num : map.keySet()){
+        for (int num : map.keySet()) {
             minHeap.offer(num);
 
-            if(minHeap.size() > k) minHeap.poll();
+            if (minHeap.size() > k)
+                minHeap.poll();
         }
-
-
         int[] result = new int[k];
-        int index = 0;
-
-            for (int num : minHeap) {
-                result[index++] = num;
-
-                if (index == k)
-                    return result;
-            }
+        for (int i = k - 1; i >= 0; i--) {
+            result[i] = minHeap.poll();
+        }
         return result;
     }
 }
