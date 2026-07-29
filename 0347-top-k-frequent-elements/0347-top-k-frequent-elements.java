@@ -1,3 +1,4 @@
+/*
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
 
@@ -33,6 +34,38 @@ class Solution {
                     return result;
             }
         }
+        return result;
+    }
+}
+*/
+
+class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int num : nums) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) -> map.get(a) - map.get(b));
+
+        for(int num : map.keySet()){
+            minHeap.offer(num);
+
+            if(minHeap.size() > k) minHeap.poll();
+        }
+
+
+        int[] result = new int[k];
+        int index = 0;
+
+            for (int num : minHeap) {
+                result[index++] = num;
+
+                if (index == k)
+                    return result;
+            }
         return result;
     }
 }
