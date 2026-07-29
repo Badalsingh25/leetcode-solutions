@@ -1,4 +1,3 @@
-/*
 class Solution {
     public int[][] kClosest(int[][] points, int k) {
 
@@ -26,7 +25,8 @@ class Solution {
         return result;
     }
 }
-*/
+
+/*
 class Solution {
     public int[][] kClosest(int[][] points, int k) {
 
@@ -44,3 +44,4 @@ class Solution {
         return result;
     }
 }
+*/
