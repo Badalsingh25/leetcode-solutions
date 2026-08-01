@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0496-next-greater-element-i](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0704-binary-search](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0739-daily-temperatures) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0973-k-closest-points-to-origin](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0977-squares-of-a-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
@@ -173,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
+| [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 ## Trie
 |  |
 | ------- |
@@ -366,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0973-k-closest-points-to-origin](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1046-last-stone-weight) |
 ## Quickselect
@@ -390,4 +395,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
+## Greedy
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 <!---LeetCode Topics End-->
