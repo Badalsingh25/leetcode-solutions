@@ -11,7 +11,7 @@ class Solution {
             minHeap.offer(new int[] { i, 0 });
         }
 
-        while (k > 0 && !minHeap.isEmpty()) {
+        while (k > 0) {
 
             int[] curr = minHeap.poll();
             int i = curr[0];
