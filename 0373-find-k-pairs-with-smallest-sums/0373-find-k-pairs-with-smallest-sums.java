@@ -11,7 +11,7 @@ class Solution {
             minHeap.offer(new int[] { i, 0 });
         }
 
-        while (k > 0) {
+        while (k-- > 0) {
 
             int[] curr = minHeap.poll();
             int i = curr[0];
@@ -22,7 +22,6 @@ class Solution {
             if (j + 1 < nums2.length) {
                 minHeap.offer(new int[] { i, j + 1 });
             }
-            k--;
         }
         return list;
     }
