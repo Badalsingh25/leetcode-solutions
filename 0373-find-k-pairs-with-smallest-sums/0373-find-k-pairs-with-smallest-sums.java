@@ -9,10 +9,11 @@ class Solution {
             minHeap.offer(new int[] { i, 0 });
         }
 
-        while (k > 0) {
-            int[] pair = minHeap.poll();
-            int i = pair[0];
-            int j = pair[1];
+        while (k > 0 && !minHeap.isEmpty()) {
+
+            int[] curr = minHeap.poll();
+            int i = curr[0];
+            int j = curr[1];
 
             list.add(Arrays.asList(nums1[i], nums2[j]));
 
