@@ -29,8 +29,8 @@ class Solution {
                 maxHeap.offer(prev);
 
             if (curr[1] > 0)
-                prev = new int[] { index, curr[1] };
-                // prev = curr;
+                // prev = new int[] { index, curr[1] };
+                prev = curr;
             else
                 prev = null;
         }
