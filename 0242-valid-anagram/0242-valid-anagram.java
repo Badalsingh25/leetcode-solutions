@@ -10,10 +10,9 @@ class Solution {
             count[s.charAt(i) - 'a']++;
             count[t.charAt(i) - 'a']--;
         }
-        for (int x : count) {
-            if (x != 0) {
+        for (int num : count) {
+            if (num != 0)
                 return false;
-            }
         }
         return true;
     }
