@@ -5,19 +5,19 @@ class Solution {
         for (int num : piles) {
             max = Math.max(num, max);
         }
-        int low = 1, high = max, ans = max;
+        int low = 1, high = max, speed = max;
 
         while (low <= high) {
-            int mid = low + (high - low) / 2;
+            int sp = low + (high - low) / 2;
 
-            if (canEat(piles, mid, h)) {
-                ans = mid;
-                high = mid - 1;
+            if (canEat(piles, sp, h)) {
+                speed = sp;
+                high = sp - 1;
             } else {
-                low = mid + 1;
+                low = sp + 1;
             }
         }
-        return ans;
+        return speed;
     }
 
     private boolean canEat(int[] piles, int sp, int h) {
