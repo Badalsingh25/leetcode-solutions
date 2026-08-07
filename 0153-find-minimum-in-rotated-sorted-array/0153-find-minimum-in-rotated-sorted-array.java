@@ -10,6 +10,6 @@ class Solution {
             if(nums[mid] > nums[high]) low = mid + 1;
             else high = mid;
         }
-        return nums[low];
+        return nums[high];
     }
 }
