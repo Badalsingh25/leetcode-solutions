@@ -3,24 +3,23 @@ class Solution {
 
         int low = 0, high = nums.length - 1;
 
-        while(low <= high){
-            int mid = low + (high - low ) / 2;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
 
-            if(nums[mid] == target) return mid;
+            if (nums[mid] == target)
+                return mid;
 
-            if(nums[low] <= nums[mid]){
-                if(target >= nums[low] && nums[mid] >= target){
+            else if (nums[low] <= nums[mid]) {
+                if (nums[low] <= target && nums[mid] >= target) {
                     high = mid - 1;
-                }else{
+                } else {
                     low = mid + 1;
                 }
-            }
-            else{
-                if(target >= nums[mid] && nums[high] >= target){
+            } else if (nums[mid] <= nums[high]) {
+                if (nums[mid] <= target && nums[high] >= target) {
                     low = mid + 1;
-                }else{
+                } else {
                     high = mid - 1;
-
                 }
             }
         }
