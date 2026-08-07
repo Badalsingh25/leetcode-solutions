@@ -25,10 +25,10 @@ class Solution {
 
     private boolean isPossible(int[] nums, int div, int threshold) {
 
-        long result = 0;
+        int result = 0;
 
-        for (int i = 0; i < nums.length; i++) {
-            result += Math.ceil(nums[i] * 1.0 / div);
+        for (int num : nums) {
+            result += (num + div - 1) / div;
             if (result > threshold)
                 return false;
         }
