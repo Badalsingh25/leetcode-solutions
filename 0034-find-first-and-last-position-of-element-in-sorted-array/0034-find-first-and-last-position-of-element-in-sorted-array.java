@@ -7,7 +7,7 @@ class Solution {
         return new int[] { first, last };
     }
 
-    public int findFirst(int[] nums, int target) {
+    private int findFirst(int[] nums, int target) {
         int low = 0, high = nums.length - 1, ans = -1;
 
         while (low <= high) {
@@ -24,7 +24,7 @@ class Solution {
         return ans;
     }
 
-    public int findLast(int[] nums, int target) {
+    private int findLast(int[] nums, int target) {
         int low = 0, high = nums.length - 1, ans = -1;
 
         while (low <= high) {
