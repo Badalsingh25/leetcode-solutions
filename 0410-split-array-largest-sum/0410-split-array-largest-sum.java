@@ -11,7 +11,7 @@ class Solution {
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (isPossible(nums, mid, k)) {
+            if (canSplit(nums, mid, k)) {
                 ans = mid;
                 high = mid - 1;
             } else {
@@ -21,20 +21,20 @@ class Solution {
         return ans;
     }
 
-    private boolean isPossible(int[] nums, int result, int k) {
-
-        int count = 1;
+    private boolean canSplit(int[] nums, int mid, int k) {
 
         int sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
-            if (sum > result) {
-                count++;
-                sum = nums[i];
+        int sa = 1;
+
+        for (int num : nums) {
+            sum += num;
+            if (sum > mid) {
+                sa++;
+                sum = num;
             }
-            if (count > k)
+            if (sa > k)
                 return false;
         }
-        return count <= k;
+        return sa <= k;
     }
 }
