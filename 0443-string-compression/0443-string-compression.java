@@ -10,8 +10,8 @@ class Solution {
                 chars[k++] = chars[i - 1];
                 if (count > 1) {
                     String str = String.valueOf(count);
-                    for (char c : str.toCharArray()) {
-                        chars[k++] = c;
+                    for (char ch : str.toCharArray()) {
+                        chars[k++] = ch;
                     }
                 }
                 count = 1;
