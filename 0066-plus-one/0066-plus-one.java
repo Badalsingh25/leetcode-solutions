@@ -1,21 +1,21 @@
 class Solution {
     public int[] plusOne(int[] digits) {
 
-        int n = digits.length - 1;
+        int i = digits.length - 1;
+        int carry = 1;
         int pos = digits.length;
         int[] result = new int[pos + 1];
-        int carry = 1;
 
-        while (n >= 0 || carry > 0) {
+        while (i >= 0 || carry > 0) {
+            if (i >= 0)
+                carry += digits[i--];
 
-            if (n >= 0)
-                carry += digits[n--];
             result[pos--] = carry % 10;
             carry /= 10;
         }
-        int[] ans = new int[result.length - 1];
+        int[] ans = new int[digits.length];
         if (result[0] == 0) {
-            System.arraycopy(result, 1, ans, 0, result.length - 1);
+            System.arraycopy(result, 1, ans, 0, ans.length);
             return ans;
         }
         return result;
