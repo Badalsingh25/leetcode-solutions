@@ -2,36 +2,32 @@ class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
 
         int max = Integer.MIN_VALUE;
-        for (int num : nums) {
-            max = Math.max(num, max);
+        for (int val : nums) {
+            max = Math.max(val, max);
         }
-        if (nums.length == threshold)
-            return max;
-
-        int low = 1, high = max, mdiv = max;
+        int low = 1, high = max, ans = max;
 
         while (low <= high) {
-            int div = low + (high - low) / 2;
+            int mid = low + (high - low) / 2;
 
-            if (isPossible(nums, div, threshold)) {
-                mdiv = div;
-                high = div - 1;
+            if (isPossible(nums, mid, threshold)) {
+                ans = mid;
+                high = mid - 1;
             } else {
-                low = div + 1;
+                low = mid + 1;
             }
         }
-        return mdiv;
+        return ans;
     }
 
     private boolean isPossible(int[] nums, int div, int threshold) {
+        int sum = 0;
 
-        int result = 0;
-
-        for (int num : nums) {
-            result += (num + div - 1) / div;
-            if (result > threshold)
+        for (int i = 0; i < nums.length; i++) {
+            sum += (nums[i] + div - 1) / div;
+            if (sum > threshold)
                 return false;
         }
-        return result <= threshold;
+        return sum <= threshold;
     }
 }
