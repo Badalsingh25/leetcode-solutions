@@ -1,8 +1,7 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
 
-        int max = Integer.MIN_VALUE;
-        int sum = 0;
+        int max = Integer.MIN_VALUE, sum = 0;
         for (int val : nums) {
             max = Math.max(max, val);
             sum += val;
@@ -11,7 +10,8 @@ class Solution {
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (canSplit(nums, mid, k)) {
+
+            if (isPossible(nums, mid, k)) {
                 ans = mid;
                 high = mid - 1;
             } else {
@@ -21,16 +21,15 @@ class Solution {
         return ans;
     }
 
-    private boolean canSplit(int[] nums, int mid, int k) {
-
-        int sum = 0;
+    private boolean isPossible(int[] nums, int capacity, int k) {
         int sa = 1;
+        int sum = 0;
 
-        for (int num : nums) {
-            sum += num;
-            if (sum > mid) {
+        for (int val : nums) {
+            sum += val;
+            if (sum > capacity) {
                 sa++;
-                sum = num;
+                sum = val;
             }
             if (sa > k)
                 return false;
