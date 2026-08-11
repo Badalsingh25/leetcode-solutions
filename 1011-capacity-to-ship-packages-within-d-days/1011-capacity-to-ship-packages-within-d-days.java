@@ -8,6 +8,8 @@ class Solution {
         }
         int low = max, high = sum, ans = sum;
 
+        if(weights.length == days) return max;
+        
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
