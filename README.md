@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0941-valid-mountain-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0941-valid-mountain-array) |
 | [0973-k-closest-points-to-origin](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [0976-largest-perimeter-triangle](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0976-largest-perimeter-triangle) |
 | [0977-squares-of-a-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-last-stone-weight](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1046-last-stone-weight) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0415-add-strings](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0415-add-strings) |
 | [0973-k-closest-points-to-origin](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [0976-largest-perimeter-triangle](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0976-largest-perimeter-triangle) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 ## Sorting
 |  |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [0976-largest-perimeter-triangle](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0976-largest-perimeter-triangle) |
 | [0977-squares-of-a-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
 |  |
@@ -421,9 +424,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0767-reorganize-string) |
+| [0976-largest-perimeter-triangle](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0976-largest-perimeter-triangle) |
 ## Interactive
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0374-guess-number-higher-or-lower) |
+## Quicksort
+|  |
+| ------- |
+| [0976-largest-perimeter-triangle](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0976-largest-perimeter-triangle) |
+## Polygons
+|  |
+| ------- |
+| [0976-largest-perimeter-triangle](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0976-largest-perimeter-triangle) |
 <!---LeetCode Topics End-->
