@@ -1,10 +1,10 @@
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
-        int max = Integer.MIN_VALUE;
-        int sum = 0;
+
+        int max = Integer.MIN_VALUE, sum = 0;
         for (int val : weights) {
             sum += val;
-            max = Math.max(val, max);
+            max = Math.max(max, val);
         }
         int low = max, high = sum, ans = sum;
 
@@ -21,15 +21,15 @@ class Solution {
         return ans;
     }
 
-    private boolean isPossible(int[] weights, int mid, int days) {
-        int sum = 0;
+    private boolean isPossible(int[] weights, int sum, int days) {
+        int capacity = 0;
         int dayUsed = 1;
 
-        for (int weight : weights) {
-            sum += weight;
-            if (sum > mid) {
+        for (int val : weights) {
+            capacity += val;
+            if (capacity > sum) {
                 dayUsed++;
-                sum = weight;
+                capacity = val;
             }
             if (dayUsed > days)
                 return false;
