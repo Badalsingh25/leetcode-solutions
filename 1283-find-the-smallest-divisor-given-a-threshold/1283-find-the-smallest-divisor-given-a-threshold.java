@@ -21,13 +21,13 @@ class Solution {
     }
 
     private boolean isPossible(int[] nums, int div, int threshold) {
-        int sum = 0;
+        int result = 0;
 
-        for (int i = 0; i < nums.length; i++) {
-            sum += (nums[i] + div - 1) / div;
-            if (sum > threshold)
+        for (int val : nums) {
+            result += (val + div - 1) / div;
+            if (result > threshold)
                 return false;
         }
-        return sum <= threshold;
+        return result <= threshold;
     }
 }
