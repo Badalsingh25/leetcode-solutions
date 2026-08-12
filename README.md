@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0054-spiral-matrix) |
+| [0258-add-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0258-add-digits) |
 | [0415-add-strings](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0415-add-strings) |
 | [1929-concatenation-of-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 ## Math
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0189-rotate-array) |
+| [0258-add-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0258-add-digits) |
 | [0415-add-strings](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0415-add-strings) |
 | [0509-fibonacci-number](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0973-k-closest-points-to-origin](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
@@ -449,4 +451,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1291-sequential-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1291-sequential-digits) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
