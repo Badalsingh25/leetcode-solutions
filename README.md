@@ -445,4 +445,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0509-fibonacci-number) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
