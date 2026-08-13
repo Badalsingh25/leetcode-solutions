@@ -3,7 +3,7 @@ class Solution {
         
         int low = 0, high = nums.length - 1;
 
-        if(nums[low] <= nums[high]) return nums[low];
+        if(nums[low] < nums[high]) return nums[low];
 
         while(low < high){
             int mid = low + (high - low) / 2;
