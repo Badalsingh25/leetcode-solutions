@@ -457,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Quicksort
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0976-largest-perimeter-triangle](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0976-largest-perimeter-triangle) |
 ## Polygons
 |  |
