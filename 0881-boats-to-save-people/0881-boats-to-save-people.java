@@ -9,10 +9,8 @@ class Solution {
 
             if (weight <= limit) {
                 left++;
-                right--;
-            } else {
-                right--;
             }
+            right--;
             boats++;
         }
         return boats;
