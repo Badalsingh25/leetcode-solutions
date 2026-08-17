@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0881-boats-to-save-people](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [0912-sort-an-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0912-sort-an-array) |
+| [0930-binary-subarrays-with-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0941-valid-mountain-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0941-valid-mountain-array) |
 | [0973-k-closest-points-to-origin](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0976-largest-perimeter-triangle](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0976-largest-perimeter-triangle) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0767-reorganize-string) |
+| [0930-binary-subarrays-with-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0724-find-pivot-index) |
+| [0930-binary-subarrays-with-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [1480-running-sum-of-1d-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
 ## Simulation
 |  |
@@ -271,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0076-minimum-window-substring) |
+| [0930-binary-subarrays-with-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 ## Stack
 |  |
 | ------- |
