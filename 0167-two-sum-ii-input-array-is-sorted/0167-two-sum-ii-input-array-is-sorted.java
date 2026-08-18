@@ -4,6 +4,7 @@ class Solution {
         int low = 0, high = numbers.length - 1;
 
         while (low <= high) {
+
             int sum = numbers[low] + numbers[high];
 
             if (sum == target)
