@@ -14,15 +14,12 @@ class Solution {
             result.add(new ArrayList<>(current));
             return;
         }
-        Set<Integer> used = new HashSet<>();
         for (int i = start; i < candidates.length; i++) {
 
+            if (i > start && candidates[i] == candidates[i - 1])
+                continue;
             if (candidates[i] > target)
                 break;
-            // if (i > start && candidates[i] == candidates[i - 1])
-            //     continue;
-            if(used.contains(candidates[i])) continue;
-            used.add(candidates[i]);
 
             current.add(candidates[i]);
             backtrack(candidates, i + 1, target - candidates[i], current, result);
