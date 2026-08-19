@@ -17,7 +17,8 @@ class Solution {
             for (int num : nums) {
                 perm.add(num);
             }
-            result.add(new ArrayList<>(perm));
+            result.add(perm);
+            return;
         }
 
         for (int i = start; i < nums.length; i++) {
