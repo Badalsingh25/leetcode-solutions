@@ -6,18 +6,20 @@ class Solution {
         return list;
     }
 
-    private void backtrack(int[] candidates, int start, int target, List<Integer> temp, List<List<Integer>> result) {
+    private void backtrack(int[] candidates, int start, int target, List<Integer> current, List<List<Integer>> result) {
+
         if (target == 0) {
-            result.add(new ArrayList<>(temp));
+            result.add(new ArrayList<>(current));
             return;
         }
-        for (int i = start; i < candidates.length; i++) {
-            if (candidates[i] > target)
-                continue;
 
-            temp.add(candidates[i]);
-            backtrack(candidates, i, target - candidates[i], temp, result);
-            temp.remove(temp.size() - 1);
+        for (int i = start; i < candidates.length; i++) {
+
+            if(candidates[i] > target) continue;
+
+            current.add(candidates[i]);
+            backtrack(candidates, i, target - candidates[i], current, result);
+            current.remove(current.size() - 1);
         }
     }
 }
