@@ -11,8 +11,8 @@ class Solution {
                 maxSoFar = minSoFar;
                 minSoFar = temp;
             }
-            maxSoFar = Math.max(nums[i], maxSoFar * nums[i]);
-            minSoFar = Math.min(nums[i], minSoFar * nums[i]);
+            maxSoFar = Math.max(nums[i] * maxSoFar, nums[i]);
+            minSoFar = Math.min(nums[i] * minSoFar, nums[i]);
             maxProduct = Math.max(maxProduct, maxSoFar);
         }
         return maxProduct;
