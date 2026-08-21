@@ -5,8 +5,6 @@ class Solution {
         List<List<Integer>> result = new ArrayList<>();
 
         for (int i = 0; i < nums.length - 3; i++) {
-            // if (nums[i] > target)
-            //     break;
             if (i > 0 && nums[i] == nums[i - 1])
                 continue;
             for (int j = i + 1; j < nums.length - 2; j++) {
