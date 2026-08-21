@@ -8,9 +8,10 @@ class Solution {
 
             if (nums[mid] > nums[high])
                 low = mid + 1;
-            else if(nums[mid] < nums[high])
+            else if (nums[mid] < nums[high])
                 high = mid;
-                else high--;
+            else
+                high--;
         }
         return nums[low];
     }
