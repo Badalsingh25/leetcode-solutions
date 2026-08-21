@@ -5,15 +5,11 @@ class Solution {
         int left = 0, right = people.length - 1, boats = 0;
 
         while (left <= right) {
-            int sum = people[left] + people[right];
-            if (sum <= limit) {
-                boats++;
+            if (people[left] + people[right] <= limit) {             
                 left++;
-                right--;
-            } else {
-                boats++;
-                right--;
             }
+            boats++;
+            right--;
         }
         return boats;
     }
