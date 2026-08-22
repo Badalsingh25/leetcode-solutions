@@ -14,12 +14,13 @@ class Solution {
             result.add(new ArrayList<>(current));
             return;
         }
+
         for (int i = start; i < candidates.length; i++) {
 
             if (i > start && candidates[i] == candidates[i - 1])
                 continue;
             if (candidates[i] > target)
-                break;
+                continue;
 
             current.add(candidates[i]);
             backtrack(candidates, i + 1, target - candidates[i], current, result);
