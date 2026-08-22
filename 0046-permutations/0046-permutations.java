@@ -15,6 +15,7 @@ class Solution {
             }
             result.add(new ArrayList<>(perm));
         }
+
         for (int i = start; i < nums.length; i++) {
             swap(nums, start, i);
             backtrack(nums, start + 1, result);
