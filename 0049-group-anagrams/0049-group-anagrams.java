@@ -4,9 +4,9 @@ class Solution {
         HashMap<String, List<String>> map = new HashMap<>();
 
         for (String word : strs) {
-            char[] ch = word.toCharArray();
-            Arrays.sort(ch);
-            String sorted = new String(ch);
+            char[] c = word.toCharArray();
+            Arrays.sort(c);
+            String sorted = new String(c);
 
             if (!map.containsKey(sorted)) {
                 map.put(sorted, new ArrayList<>());
