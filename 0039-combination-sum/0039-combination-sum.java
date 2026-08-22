@@ -12,10 +12,10 @@ class Solution {
             result.add(new ArrayList<>(current));
             return;
         }
-
         for (int i = start; i < candidates.length; i++) {
 
-            if(candidates[i] > target) continue;
+            if (candidates[i] > target)
+                continue;
 
             current.add(candidates[i]);
             backtrack(candidates, i, target - candidates[i], current, result);
