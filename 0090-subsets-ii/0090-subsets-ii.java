@@ -2,7 +2,6 @@ class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
 
         Arrays.sort(nums);
-
         List<List<Integer>> list = new ArrayList<>();
         backtrack(nums, 0, new ArrayList<>(), list);
         return list;
@@ -13,7 +12,6 @@ class Solution {
         result.add(new ArrayList<>(current));
 
         for (int i = start; i < nums.length; i++) {
-
             if (i > start && nums[i] == nums[i - 1])
                 continue;
 
