@@ -10,20 +10,17 @@ class Solution {
 
     private void backtrack(int[] nums, int start, List<List<Integer>> result) {
 
-        HashSet<Integer> used = new HashSet<>();
-
         if (start == nums.length) {
             List<Integer> perm = new ArrayList<>();
             for (int num : nums) {
                 perm.add(num);
             }
-            result.add(perm);
-            return;
+            result.add(new ArrayList<>(perm));
         }
-
+        Set<Integer> used = new HashSet<>();
         for (int i = start; i < nums.length; i++) {
-            if (used.contains(nums[i]))
-                continue;
+
+            if(used.contains(nums[i])) continue;
             used.add(nums[i]);
 
             swap(nums, start, i);
