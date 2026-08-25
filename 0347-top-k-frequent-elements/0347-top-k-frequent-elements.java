@@ -4,7 +4,6 @@ class Solution {
 
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        //frequency count
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
@@ -13,9 +12,9 @@ class Solution {
 
         for (int key : map.keySet()) {
             int freq = map.get(key);
-
             if (bucket[freq] == null)
                 bucket[freq] = new ArrayList<>();
+
             bucket[freq].add(key);
         }
 
