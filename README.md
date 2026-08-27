@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [0875-koko-eating-bananas](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0881-boats-to-save-people](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0881-boats-to-save-people) |
+| [0904-fruit-into-baskets](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0912-sort-an-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0930-binary-subarrays-with-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0941-valid-mountain-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0941-valid-mountain-array) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0767-reorganize-string) |
+| [0904-fruit-into-baskets](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 ## Prefix Sum
@@ -296,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0904-fruit-into-baskets](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 ## Stack
 |  |
