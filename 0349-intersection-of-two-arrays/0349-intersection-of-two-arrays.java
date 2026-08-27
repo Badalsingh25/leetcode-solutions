@@ -1,28 +1,24 @@
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
 
-        if(nums1.length > nums2.length){
-            return intersection(nums2, nums1);
-        }
-        Set<Integer> set = new HashSet<>();
-        // Set<Integer> result = new HashSet<>();
-        List<Integer> result = new ArrayList<>();
+        HashSet<Integer> set = new HashSet<>();
+        ArrayList<Integer> list = new ArrayList<>();
 
-        for (int num : nums1)
+        for (int num : nums1) {
             set.add(num);
+        }
 
         for (int num : nums2) {
             if (set.contains(num)) {
-                result.add(num);
+                list.add(num);
                 set.remove(num);
             }
         }
-
-        int[] arr = new int[result.size()];
+        int[] result = new int[list.size()];
         int i = 0;
-        for (int num : result) {
-            arr[i++] = num;
+        for (int num : list) {
+            result[i++] = num;
         }
-        return arr;
+        return result;
     }
 }
