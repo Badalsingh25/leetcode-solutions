@@ -8,22 +8,20 @@ class Solution {
         }
 
         List<Integer>[] bucket = new ArrayList[nums.length + 1];
-
         for (int key : map.keySet()) {
             int freq = map.get(key);
-
             if (bucket[freq] == null)
                 bucket[freq] = new ArrayList<>();
+
             bucket[freq].add(key);
         }
 
         int[] result = new int[k];
         int count = 0;
-
         for (int i = bucket.length - 1; i >= 0; i--) {
             if (bucket[i] != null) {
                 for (int num : bucket[i]) {
-                    if (count == k)
+                    if (count >= k)
                         break;
                     result[count++] = num;
                 }
