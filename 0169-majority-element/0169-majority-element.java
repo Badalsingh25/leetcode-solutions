@@ -6,7 +6,7 @@ class Solution {
         for (int num : nums) {
             if (count == 0)
                 candidate = num;
-            else if (candidate == num)
+            if (candidate == num)
                 count++;
             else
                 count--;
