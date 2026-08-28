@@ -8,16 +8,15 @@ class Solution {
         }
 
         List<Character>[] bucket = new ArrayList[s.length() + 1];
-
-        for (char c : map.keySet()) {
-            int freq = map.get(c);
-
+        for (char key : map.keySet()) {
+            int freq = map.get(key);
             if (bucket[freq] == null)
                 bucket[freq] = new ArrayList<>();
-            bucket[freq].add(c);
-        }
-        StringBuilder sb = new StringBuilder();
 
+            bucket[freq].add(key);
+        }
+
+        StringBuilder sb = new StringBuilder();
         for (int i = bucket.length - 1; i >= 0; i--) {
             if (bucket[i] != null) {
                 for (char c : bucket[i]) {
