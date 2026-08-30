@@ -20,7 +20,7 @@ class Solution {
             if (!destroyed)
                 stack[++top] = curr;
         }
-        // return Arrays.copyOf(stack, top + 1);
-        return Arrays.copyOfRange(stack, 0, top + 1);
+        // return Arrays.copyOfRange(stack, 0, top + 1);
+        return Arrays.copyOf(stack, top + 1);
     }
 }
