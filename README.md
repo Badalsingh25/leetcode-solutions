@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0258-add-digits](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0258-add-digits) |
 | [0415-add-strings](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0415-add-strings) |
+| [0844-backspace-string-compare](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 | [1929-concatenation-of-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 ## Math
 |  |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0567-permutation-in-string) |
+| [0844-backspace-string-compare](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [0977-squares-of-a-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0520-detect-capital](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0520-detect-capital) |
 | [0567-permutation-in-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0767-reorganize-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0767-reorganize-string) |
+| [0844-backspace-string-compare](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 ## Queue
 |  |
 | ------- |
@@ -317,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0739-daily-temperatures) |
+| [0844-backspace-string-compare](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 ## Design
 |  |
 | ------- |
