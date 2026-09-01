@@ -5,6 +5,7 @@ class Solution {
         map.put(0, -1);
 
         int prefixSum = 0;
+
         for (int i = 0; i < nums.length; i++) {
             prefixSum += nums[i];
             int reminder = (prefixSum % k + k) % k;
