@@ -16,7 +16,7 @@ class Solution {
         }
         int[] result = new int[list.size()];
         int i = 0;
-
+        
         for (int num : list) {
             result[i++] = num;
         }
