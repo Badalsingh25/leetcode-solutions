@@ -7,6 +7,7 @@ class Solution {
         for (int num : nums1) {
             set.add(num);
         }
+
         for (int num : nums2) {
             if (set.contains(num)) {
                 list.add(num);
@@ -15,6 +16,7 @@ class Solution {
         }
         int[] result = new int[list.size()];
         int i = 0;
+
         for (int num : list) {
             result[i++] = num;
         }
