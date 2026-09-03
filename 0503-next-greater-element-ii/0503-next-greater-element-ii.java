@@ -8,8 +8,9 @@ class Solution {
 
         for (int i = 0; i < 2 * n; i++) {
             while (!stack.isEmpty() && nums[i % n] > nums[stack.peek()]) {
-                int idx = stack.pop();
-                ans[idx] = nums[i % n];
+                // int idx = stack.pop();
+                // ans[idx] = nums[i % n];
+                ans[stack.pop()] = nums[i % n];
             }
             if (i < n) {
                 stack.push(i);
