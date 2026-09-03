@@ -1,8 +1,8 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
-        // Stack<Integer> stack = new Stack<>();
-        Deque<Integer> stack = new ArrayDeque<>();
+        Stack<Integer> stack = new Stack<>();
+        // Deque<Integer> stack = new ArrayDeque<>();
         HashMap<Integer, Integer> map = new HashMap<>();
         int[] ans = new int[nums1.length];
 
