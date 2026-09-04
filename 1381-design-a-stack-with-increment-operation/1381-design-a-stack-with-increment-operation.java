@@ -1,8 +1,8 @@
 class CustomStack {
 
     int[] stack;
-    int top;
     int maxSize;
+    int top;
 
     public CustomStack(int maxSize) {
         this.maxSize = maxSize;
@@ -19,7 +19,6 @@ class CustomStack {
     public int pop() {
         if (top == -1)
             return -1;
-
         return stack[top--];
     }
 
