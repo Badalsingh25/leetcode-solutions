@@ -6,6 +6,7 @@ class MyQueue {
     public MyQueue() {
         input = new Stack<>();
         output = new Stack<>();
+
     }
 
     public void push(int x) {
