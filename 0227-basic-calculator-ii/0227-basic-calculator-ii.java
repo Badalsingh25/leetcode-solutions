@@ -1,7 +1,8 @@
 class Solution {
     public int calculate(String s) {
 
-        int lastNumber = 0, num = 0, result = 0;
+        Stack<Integer> stack = new Stack<>();
+        int num = 0, lastNumber = 0, result = 0;
         char op = '+';
 
         for (int i = 0; i < s.length(); i++) {
@@ -9,8 +10,8 @@ class Solution {
 
             if (Character.isDigit(ch))
                 num = num * 10 + (ch - '0');
-            if ((ch != ' ' && !Character.isDigit(ch)) || i == s.length() - 1) {
 
+            if ((!Character.isDigit(ch) && ch != ' ') || i == s.length() - 1) {
                 if (op == '+') {
                     result += lastNumber;
                     lastNumber = num;
