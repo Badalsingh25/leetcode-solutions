@@ -5,22 +5,22 @@ class Solution {
         int top = -1;
 
         for (int curr : asteroids) {
-            boolean destroyed = false;
 
+            Boolean destroyed = false;
             while (top >= 0 && stack[top] > 0 && curr < 0) {
                 if (stack[top] < Math.abs(curr)) {
                     top--;
                     continue;
-                } else if (stack[top] == Math.abs(curr))
+                } else if (stack[top] == Math.abs(curr)) {
                     top--;
-
+                }
                 destroyed = true;
                 break;
             }
-            if (!destroyed)
+            if (!destroyed) {
                 stack[++top] = curr;
+            }
         }
-        // return Arrays.copyOfRange(stack, 0, top + 1);
         return Arrays.copyOf(stack, top + 1);
     }
 }
