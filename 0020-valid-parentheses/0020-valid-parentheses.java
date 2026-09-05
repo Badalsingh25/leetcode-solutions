@@ -3,18 +3,19 @@ class Solution {
 
         Stack<Character> stack = new Stack<>();
 
-        for (Character ch : s.toCharArray()) {
+        for (char ch : s.toCharArray()) {
+
             if (ch == '(')
                 stack.push(')');
-
             else if (ch == '{')
                 stack.push('}');
-
             else if (ch == '[')
                 stack.push(']');
             else {
-                if (stack.isEmpty() || stack.pop() != ch)
+                // stack.pop();
+                if (stack.isEmpty() || ch != stack.pop()) {
                     return false;
+                }
             }
         }
         return stack.isEmpty();
