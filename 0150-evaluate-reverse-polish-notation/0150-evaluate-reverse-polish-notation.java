@@ -5,7 +5,6 @@ class Solution {
 
         for (String token : tokens) {
             switch (token) {
-
                 case "+":
                     stack.push(stack.pop() + stack.pop());
                     break;
