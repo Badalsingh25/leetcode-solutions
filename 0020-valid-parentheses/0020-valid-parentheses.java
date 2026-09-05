@@ -1,14 +1,16 @@
 class Solution {
     public boolean isValid(String s) {
 
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new ArrayDeque<>();
 
         for (char ch : s.toCharArray()) {
 
             if (ch == '(')
                 stack.push(')');
+
             else if (ch == '{')
                 stack.push('}');
+
             else if (ch == '[')
                 stack.push(']');
             else {
