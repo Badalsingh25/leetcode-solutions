@@ -4,11 +4,11 @@ class Solution {
         Deque<Integer> stack = new ArrayDeque<>();
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < nums2.length; i++) {
-            while (!stack.isEmpty() && nums2[i] > stack.peek()) {
-                map.put(stack.pop(), nums2[i]);
+        for (int num : nums2) {
+            while (!stack.isEmpty() && num > stack.peek()) {
+                map.put(stack.pop(), num);
             }
-            stack.push(nums2[i]);
+            stack.push(num);
         }
         while (!stack.isEmpty()) {
             map.put(stack.pop(), -1);
