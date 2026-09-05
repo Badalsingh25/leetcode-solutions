@@ -1,12 +1,11 @@
 class MyQueue {
 
-    Stack<Integer> input;
-    Stack<Integer> output;
+    Deque<Integer> input;
+    Deque<Integer> output;
 
     public MyQueue() {
-        input = new Stack<>();
-        output = new Stack<>();
-
+        input = new ArrayDeque<>();
+        output = new ArrayDeque<>();
     }
 
     public void push(int x) {
