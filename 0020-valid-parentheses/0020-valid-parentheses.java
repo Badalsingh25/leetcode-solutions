@@ -12,7 +12,6 @@ class Solution {
             else if (ch == '[')
                 stack.push(']');
             else {
-                // stack.pop();
                 if (stack.isEmpty() || ch != stack.pop()) {
                     return false;
                 }
