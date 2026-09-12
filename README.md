@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0189-rotate-array) |
+| [0234-palindrome-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0344-reverse-string) |
@@ -333,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
+| [0234-palindrome-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0735-asteroid-collision) |
@@ -368,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
 |  |
@@ -377,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0224-basic-calculator) |
+| [0234-palindrome-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0509-fibonacci-number](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0509-fibonacci-number) |
 ## Doubly-Linked List
 |  |
