@@ -11,18 +11,14 @@
 class Solution {
     public boolean isPalindrome(ListNode head) {
 
-        if (head == null || head.next == null)
-            return true;
-
-        //Find middle of  linkedlist
         ListNode slow = head;
         ListNode fast = head;
+
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
 
-        // Reverse 2nd half
         ListNode prev = null;
 
         while (slow != null) {
@@ -32,7 +28,6 @@ class Solution {
             slow = next;
         }
 
-        // Compare both halves
         ListNode left = head;
         ListNode right = prev;
 
