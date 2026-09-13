@@ -30,7 +30,7 @@ public class Solution {
                     slow = slow.next;
                     fast = fast.next;
                 }
-                return fast; // starting point found
+                return slow; // starting point found
             }
         }
         return null; // starting point not found
