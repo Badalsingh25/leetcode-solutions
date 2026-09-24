@@ -7,7 +7,7 @@ class Solution {
         for (String word : wordDict) {
             maxWordLen = Math.max(maxWordLen, word.length());
         }
-        
+
         boolean[] dp = new boolean[s.length() + 1];
         dp[0] = true;
 
