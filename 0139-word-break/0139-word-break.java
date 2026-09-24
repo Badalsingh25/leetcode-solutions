@@ -2,12 +2,11 @@ class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
 
         HashSet<String> wordSet = new HashSet<>(wordDict);
-
+        
         int maxWordLen = 0;
         for (String word : wordDict) {
             maxWordLen = Math.max(maxWordLen, word.length());
         }
-
         boolean[] dp = new boolean[s.length() + 1];
         dp[0] = true;
 
