@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-middle-of-the-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [0977-squares-of-a-sorted-array](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
+| [1616-split-two-strings-to-make-palindrome](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1616-split-two-strings-to-make-palindrome) |
 ## String
 |  |
 | ------- |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0844-backspace-string-compare](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 | [0856-score-of-parentheses](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0856-score-of-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1616-split-two-strings-to-make-palindrome](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1616-split-two-strings-to-make-palindrome) |
 ## Queue
 |  |
 | ------- |
