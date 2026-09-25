@@ -7,9 +7,7 @@ class Solution {
     private boolean check(String a, String b) {
         int left = 0, right = a.length() - 1;
 
-        while (left < right) {
-            if (a.charAt(left) != b.charAt(right))
-                break;
+        while (left < right && a.charAt(left) == b.charAt(right)) {
 
             left++;
             right--;
