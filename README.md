@@ -359,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [0844-backspace-string-compare](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0844-backspace-string-compare) |
 | [0856-score-of-parentheses](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0856-score-of-parentheses) |
+| [0901-online-stock-span](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1381-design-a-stack-with-increment-operation) |
 ## Design
@@ -369,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0901-online-stock-span](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1381-design-a-stack-with-increment-operation) |
 ## Monotonic Stack
 |  |
@@ -377,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0901-online-stock-span) |
 ## Linked List
 |  |
 | ------- |
@@ -556,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
+| [0901-online-stock-span](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0901-online-stock-span) |
 ## Greedy
 |  |
 | ------- |
