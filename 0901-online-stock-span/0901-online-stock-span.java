@@ -10,11 +10,11 @@ class StockSpanner {
 
         int span = 1;
 
-        while(!stack.isEmpty() && stack.peek()[0] <= price){
-            span += stack.pop()[1];
+        while (!stack.isEmpty() && stack.peek()[0] <= price) {
+            span += stack.pop()[1]; // Instead of checking every previous day individually, we use the already-calculated span.
         }
-        stack.push(new int[] {price, span});
-        
+        stack.push(new int[] { price, span });
+
         return span;
     }
 }
