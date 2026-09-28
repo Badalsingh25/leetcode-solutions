@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0704-binary-search](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0704-binary-search) |
+| [0706-design-hashmap](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0724-find-pivot-index](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0739-daily-temperatures) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0706-design-hashmap](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0767-reorganize-string](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0767-reorganize-string) |
 | [0904-fruit-into-baskets](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
@@ -370,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0706-design-hashmap](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0901-online-stock-span](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/Badalsingh25/leetcode-solutions/tree/master/1381-design-a-stack-with-increment-operation) |
 ## Monotonic Stack
@@ -396,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0237-delete-node-in-a-linked-list) |
+| [0706-design-hashmap](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0876-middle-of-the-linked-list](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
 |  |
@@ -520,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
+| [0706-design-hashmap](https://github.com/Badalsingh25/leetcode-solutions/tree/master/0706-design-hashmap) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
