@@ -8,8 +8,9 @@ class Solution {
                 depth++;
             else {
                 depth--;
-                if (s.charAt(i - 1) == '(')
+                if (s.charAt(i - 1) == '(') {
                     score += (1 << depth);
+                }
             }
         }
         return score;
