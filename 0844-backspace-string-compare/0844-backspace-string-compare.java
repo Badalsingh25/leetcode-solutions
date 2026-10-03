@@ -4,17 +4,14 @@ class Solution {
         return build(s).equals(build(t));
     }
 
-    private String build(String s) {
+    private String build(String str) {
 
         StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < s.length(); i++) {
-            if (!sb.isEmpty() && s.charAt(i) == '#') {
-                sb.deleteCharAt(sb.length() - 1);
-            }
-            else if(s.charAt(i) != '#'){
-            sb.append(s.charAt(i));
-            }
+        for (char c : str.toCharArray()) {
+
+            if (c != '#') sb.append(c);
+            else if (!sb.isEmpty()) sb.deleteCharAt(sb.length() - 1);
         }
         return sb.toString();
     }
