@@ -5,8 +5,8 @@ class Solution {
         int top = -1;
 
         for (int curr : asteroids) {
+            boolean destroyed = false;
 
-            Boolean destroyed = false;
             while (top >= 0 && stack[top] > 0 && curr < 0) {
                 if (stack[top] < Math.abs(curr)) {
                     top--;
