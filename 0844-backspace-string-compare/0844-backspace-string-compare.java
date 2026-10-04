@@ -3,15 +3,14 @@ class Solution {
 
         return build(s).equals(build(t));
     }
-
-    private String build(String str) {
-
+    public String build(String str){
         StringBuilder sb = new StringBuilder();
 
-        for (char c : str.toCharArray()) {
-
-            if (c != '#') sb.append(c);
-            else if (!sb.isEmpty()) sb.deleteCharAt(sb.length() - 1);
+        for(char c : str.toCharArray()){
+            if(c != '#') sb.append(c);
+            else if(!sb.isEmpty()){
+                sb.deleteCharAt(sb.length() - 1);
+            }
         }
         return sb.toString();
     }
