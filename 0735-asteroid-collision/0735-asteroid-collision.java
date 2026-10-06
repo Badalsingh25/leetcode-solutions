@@ -4,7 +4,9 @@ class Solution {
         int[] stack = new int[asteroids.length];
         int top = -1;
 
-        for (int curr : asteroids) {
+        for (int i = 0; i < asteroids.length; i++) {
+
+            int curr = asteroids[i];
             boolean destroyed = false;
 
             while (top >= 0 && stack[top] > 0 && curr < 0) {
