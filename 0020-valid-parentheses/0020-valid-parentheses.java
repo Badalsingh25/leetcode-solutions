@@ -3,18 +3,15 @@ class Solution {
 
         Deque<Character> stack = new ArrayDeque<>();
 
-        for (char ch : s.toCharArray()) {
-
-            if (ch == '(')
+        for (char c : s.toCharArray()) {
+            if (c == '(')
                 stack.push(')');
-
-            else if (ch == '{')
-                stack.push('}');
-
-            else if (ch == '[')
+            else if (c == '[')
                 stack.push(']');
+            else if (c == '{')
+                stack.push('}');
             else {
-                if (stack.isEmpty() || ch != stack.pop()) {
+                if (stack.isEmpty() || c != stack.pop()) {
                     return false;
                 }
             }
