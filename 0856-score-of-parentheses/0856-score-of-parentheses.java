@@ -9,8 +9,7 @@ class Solution {
             else {
                 depth--;
                 if (s.charAt(i - 1) == '(') {
-                    // score += (1 << depth);
-                    score += Math.pow(2, depth);
+                    score += 1 << depth;
                 }
             }
         }
