@@ -11,7 +11,7 @@ class Solution {
             if (str.charAt(i) != '#')
                 sb.append(str.charAt(i));
 
-            else if (!sb.isEmpty()) {
+            else if (sb.length() > 0) {
                     sb.deleteCharAt(sb.length() - 1);
                 }
         }
