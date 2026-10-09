@@ -4,11 +4,11 @@ class Solution {
         char[] stack = new char[s.length()];
         int top = -1;
 
-        for (int i = 0; i < s.length(); i++) {
-            if (top >= 0 && stack[top] == s.charAt(i))
+        for (char c : s.toCharArray()) {
+            if (top >= 0 && stack[top] == c)
                 top--;
             else
-                stack[++top] = s.charAt(i);
+                stack[++top] = c;
         }
         return new String(stack, 0, top + 1);
     }
