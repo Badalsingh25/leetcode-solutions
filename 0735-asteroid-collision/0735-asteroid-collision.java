@@ -4,16 +4,15 @@ class Solution {
         int[] stack = new int[asteroids.length];
         int top = -1;
 
+
         for (int i = 0; i < asteroids.length; i++) {
-
+        boolean destroyed = false;
             int curr = asteroids[i];
-            boolean destroyed = false;
-
             while (top >= 0 && stack[top] > 0 && curr < 0) {
-                if (stack[top] < Math.abs(curr)) {
+                if (Math.abs(curr) > stack[top]) {
                     top--;
                     continue;
-                } else if (stack[top] == Math.abs(curr)) {
+                } else if (Math.abs(curr) == stack[top]) {
                     top--;
                 }
                 destroyed = true;
