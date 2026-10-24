@@ -4,7 +4,7 @@ class Solution {
         int[] result = new int[nums.length];
         int left = 0, right = nums.length - 1, pos = nums.length - 1;
 
-        while (left <= right) {
+        for (int i = 0; i < nums.length; i++) {
             int leftSquare = nums[left] * nums[left];
             int rightSquare = nums[right] * nums[right];
 
