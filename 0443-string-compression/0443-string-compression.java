@@ -14,7 +14,7 @@ class Solution {
                         chars[k++] = c;
                     }
                 }
-            count = 1;
+                count = 1;
             }
         }
         return k;
