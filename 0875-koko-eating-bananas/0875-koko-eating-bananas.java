@@ -24,11 +24,11 @@ class Solution {
     }
 
     private boolean canEat(int[] piles, int sp, int h) {
-        long time = 0;
+        int time = 0;
 
-        for (int i = 0; i < piles.length; i++) {
-            time += Math.ceil((piles[i] * 1.0) / sp);
-            // time += (piles[i] + sp - 1) / sp;
+        for (int pile : piles) {
+            // time += Math.ceil((piles[i] * 1.0) / sp);
+            time += (pile + sp - 1) / sp;
 
             if (time > h)
                 return false;
