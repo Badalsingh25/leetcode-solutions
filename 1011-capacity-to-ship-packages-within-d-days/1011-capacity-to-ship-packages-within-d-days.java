@@ -27,11 +27,11 @@ class Solution {
         int dayUsed = 1;
         int sum = 0;
 
-        for (int i = 0; i < weights.length; i++) {
-            sum += weights[i];
+        for (int weight : weights) {
+            sum += weight;
 
             if (sum > capacity) {
-                sum = weights[i];
+                sum = weight;
                 dayUsed++;
 
                 if (dayUsed > days)
