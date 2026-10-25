@@ -6,8 +6,8 @@ class Solution {
             sum += val;
             max = Math.max(max, val);
         }
-        // if (weights.length == days)
-        //     return max;
+        if (weights.length == days)
+            return max;
 
         int low = max, high = sum, ans = sum;
 
