@@ -5,26 +5,30 @@ class Solution {
         for (int val : nums) {
             max = Math.max(val, max);
         }
-        int low = 1, high = max, ans = max;
+
+        if (nums.length == threshold)
+            return max;
+
+        int low = 1, high = max, mdiv = max;
 
         while (low <= high) {
-            int mid = low + (high - low) / 2;
+            int div = low + (high - low) / 2;
 
-            if (isPossible(nums, mid, threshold)) {
-                ans = mid;
-                high = mid - 1;
-            } else {
-                low = mid + 1;
-            }
+            if (isDivisible(nums, div, threshold)) {
+                mdiv = div;
+                high = div - 1;
+            } else
+                low = div + 1;
         }
-        return ans;
+        return mdiv;
     }
 
-    private boolean isPossible(int[] nums, int div, int threshold) {
+    private boolean isDivisible(int[] nums, int div, int threshold) {
         int result = 0;
 
         for (int val : nums) {
             result += (val + div - 1) / div;
+
             if (result > threshold)
                 return false;
         }
