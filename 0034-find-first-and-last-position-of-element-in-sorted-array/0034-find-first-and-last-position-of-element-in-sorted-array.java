@@ -1,6 +1,5 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-
         int first = findFirst(nums, target);
         int last = findLast(nums, target);
 
@@ -8,7 +7,6 @@ class Solution {
     }
 
     private int findFirst(int[] nums, int target) {
-
         int low = 0, high = nums.length - 1, ans = -1;
 
         while (low <= high) {
@@ -26,7 +24,6 @@ class Solution {
     }
 
     private int findLast(int[] nums, int target) {
-
         int low = 0, high = nums.length - 1, ans = -1;
 
         while (low <= high) {
