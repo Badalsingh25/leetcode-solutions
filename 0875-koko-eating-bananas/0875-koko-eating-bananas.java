@@ -6,7 +6,8 @@ class Solution {
         for (int val : piles) {
             max = Math.max(max, val);
         }
-        if(piles.length == h) return max;
+        if (piles.length == h)
+            return max;
 
         int low = 1, high = max, speed = max;
 
