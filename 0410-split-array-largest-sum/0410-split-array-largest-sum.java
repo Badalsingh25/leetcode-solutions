@@ -2,37 +2,39 @@ class Solution {
     public int splitArray(int[] nums, int k) {
 
         int max = Integer.MIN_VALUE, sum = 0;
+
         for (int val : nums) {
             max = Math.max(max, val);
             sum += val;
         }
+
         int low = max, high = sum, ans = sum;
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
-            if (isPossible(nums, mid, k)) {
+            if (canSplit(nums, mid, k)) {
                 ans = mid;
                 high = mid - 1;
-            } else {
+            } else
                 low = mid + 1;
-            }
         }
         return ans;
     }
 
-    private boolean isPossible(int[] nums, int capacity, int k) {
+    private boolean canSplit(int[] nums, int capacity, int k) {
         int sa = 1;
         int sum = 0;
 
-        for (int val : nums) {
-            sum += val;
+        for (int num : nums) {
+            sum += num;
             if (sum > capacity) {
                 sa++;
-                sum = val;
+                sum = num;
+
+                if (sa > k)
+                    return false;
             }
-            if (sa > k)
-                return false;
         }
         return sa <= k;
     }
