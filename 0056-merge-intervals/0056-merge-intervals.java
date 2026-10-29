@@ -15,7 +15,6 @@ class Solution {
             }
         }
         result.add(current);
-
         return result.toArray(new int[result.size()][]);
     }
 }
