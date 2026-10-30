@@ -3,10 +3,11 @@ class Solution {
 
         int candidate = -1, count = 0;
 
-        for (int num : nums) {
+        for (int i = 0; i < nums.length; i++) {
             if (count == 0)
-                candidate = num;
-            if (candidate == num)
+                candidate = nums[i];
+
+            if (candidate == nums[i])
                 count++;
             else
                 count--;
