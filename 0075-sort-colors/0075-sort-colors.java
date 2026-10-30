@@ -5,18 +5,18 @@ class Solution {
 
         while (mid <= right) {
             if (nums[mid] == 0) {
-                int temp = nums[mid];
-                nums[mid] = nums[left];
-                nums[left] = temp;
+                int temp = nums[left];
+                nums[left] = nums[mid];
+                nums[mid] = temp;
 
                 left++;
                 mid++;
             } else if (nums[mid] == 1)
                 mid++;
             else {
-                int temp = nums[right];
-                nums[right] = nums[mid];
-                nums[mid] = temp;
+                int temp = nums[mid];
+                nums[mid] = nums[right];
+                nums[right] = temp;
 
                 right--;
             }
