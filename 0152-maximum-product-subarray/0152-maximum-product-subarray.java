@@ -7,12 +7,13 @@ class Solution {
 
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] < 0) {
-                int temp = maxSoFar;
-                maxSoFar = minSoFar;
-                minSoFar = temp;
+                int temp = minSoFar;
+                minSoFar = maxSoFar;
+                maxSoFar = temp;
             }
-            maxSoFar = Math.max(nums[i] * maxSoFar, nums[i]);
-            minSoFar = Math.min(nums[i] * minSoFar, nums[i]);
+            minSoFar = Math.min(minSoFar * nums[i], nums[i]);
+            maxSoFar = Math.max(maxSoFar * nums[i], nums[i]);
+
             maxProduct = Math.max(maxProduct, maxSoFar);
         }
         return maxProduct;
