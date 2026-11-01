@@ -15,6 +15,7 @@ class Solution {
                 current.add(num);
             }
             result.add(current);
+            return;
         }
         for (int i = start; i < nums.length; i++) {
             swap(nums, start, i);
