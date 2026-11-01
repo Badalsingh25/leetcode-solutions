@@ -5,11 +5,10 @@ class Solution {
         HashMap<Character, Integer> map = new HashMap<>();
 
         for (int right = 0; right < s.length(); right++) {
-            char c = s.charAt(right);
-            if (map.containsKey(c)) {
-                left = Math.max(left, map.get(c) + 1);
-            }
-            map.put(c, right);
+            if (map.containsKey(s.charAt(right)))
+                left = Math.max(left, map.get(s.charAt(right)) + 1);
+
+            map.put(s.charAt(right), right);
             maxLength = Math.max(maxLength, right - left + 1);
         }
         return maxLength;
