@@ -16,11 +16,13 @@ class Solution {
                 current.add(num);
             }
             result.add(current);
+            return;
         }
         Set<Integer> used = new HashSet<>();
         for (int i = start; i < nums.length; i++) {
-            
-            if(used.contains(nums[i])) continue;
+
+            if (used.contains(nums[i]))
+                continue;
             used.add(nums[i]);
 
             swap(nums, start, i);
