@@ -8,12 +8,11 @@ class Solution {
         return result;
     }
 
-    public static void backtrack(int start, int[] nums, List<Integer> current, List<List<Integer>> result) {
+    private void backtrack(int start, int[] nums, List<Integer> current, List<List<Integer>> result) {
 
         result.add(new ArrayList<>(current));
 
         for (int i = start; i < nums.length; i++) {
-
             if (i > start && nums[i] == nums[i - 1])
                 continue;
 
