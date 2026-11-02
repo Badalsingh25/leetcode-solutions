@@ -12,6 +12,7 @@ class Solution {
 
         if (start == nums.length) {
             List<Integer> current = new ArrayList<>();
+
             for (int num : nums) {
                 current.add(num);
             }
@@ -20,20 +21,18 @@ class Solution {
         }
         Set<Integer> used = new HashSet<>();
         for (int i = start; i < nums.length; i++) {
-
-            if (used.contains(nums[i]))
-                continue;
+            if(used.contains(nums[i])) continue;
             used.add(nums[i]);
 
-            swap(nums, start, i);
+            swap(nums, i, start);
             backtrack(start + 1, nums, result);
-            swap(nums, start, i);
+            swap(nums, i, start);
         }
     }
 
-    private void swap(int[] nums, int i, int j) {
+    private void swap(int[] nums, int i, int start) {
         int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+        nums[i] = nums[start];
+        nums[start] = temp;
     }
 }
