@@ -2,12 +2,11 @@ class Solution {
     public List<List<Integer>> subsets(int[] nums) {
 
         List<List<Integer>> result = new ArrayList<>();
-
         backtrack(0, nums, new ArrayList<>(), result);
         return result;
     }
 
-    public static void backtrack(int start, int[] nums, List<Integer> current, List<List<Integer>> result) {
+    private void backtrack(int start, int[] nums, List<Integer> current, List<List<Integer>> result) {
 
         result.add(new ArrayList<>(current));
 
