@@ -10,11 +10,12 @@ class Solution {
     private void backtrack(int start, int[] nums, List<List<Integer>> result) {
 
         if (start == nums.length) {
-            List<Integer> current = new ArrayList<>();
+            List<Integer> temp = new ArrayList<>();
+
             for (int num : nums) {
-                current.add(num);
+                temp.add(num);
             }
-            result.add(current);
+            result.add(temp);
             return;
         }
         for (int i = start; i < nums.length; i++) {
@@ -24,9 +25,9 @@ class Solution {
         }
     }
 
-    private void swap(int[] nums, int i, int j) {
+    private void swap(int[] nums, int i, int start) {
         int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+        nums[i] = nums[start];
+        nums[start] = temp;
     }
 }
