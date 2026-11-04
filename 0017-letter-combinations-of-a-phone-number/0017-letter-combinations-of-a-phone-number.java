@@ -1,25 +1,24 @@
 class Solution {
     public List<String> letterCombinations(String digits) {
 
-        List<String> list = new ArrayList<>();
-        backtrack(digits, 0, new StringBuilder(), list);
-        return list;
+        List<String> result = new ArrayList<>();
+        generateCombinations(digits, 0, new StringBuilder(), result);
+        return result;
     }
 
-    private void backtrack(String digits, int index, StringBuilder str, List<String> result) {
-
-        String[] map = { " ", " ", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
+    public void generateCombinations(String digits, int index, StringBuilder str, List<String> result) {
 
         if (index == digits.length()) {
             result.add(str.toString());
             return;
         }
+        String[] map = { " ", " ", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
         int digit = digits.charAt(index) - '0';
-        String letters = map[digit];
+        String letter = map[digit];
 
-        for (char c : letters.toCharArray()) {
+        for (char c : letter.toCharArray()) {
             str.append(c);
-            backtrack(digits, index + 1, str, result);
+            generateCombinations(digits, index + 1, str, result);
             str.deleteCharAt(str.length() - 1);
         }
     }
