@@ -2,27 +2,26 @@ class Solution {
     public List<List<String>> partition(String s) {
 
         List<List<String>> result = new ArrayList<>();
-
-        generateCombinations(0, s, new ArrayList<>(), result);
+        generateCombinations(s, 0, new ArrayList<>(), result);
         return result;
     }
 
-    private void generateCombinations(int start, String s, List<String> current, List<List<String>> result) {
+    public void generateCombinations(String s, int start, List<String> current, List<List<String>> result) {
 
-        if (start == s.length()) {
+        if (s.length() == start) {
             result.add(new ArrayList<>(current));
             return;
         }
         for (int i = start; i < s.length(); i++) {
-            if (isPalindrome(s, start, i)) {
+            if (palindromeCheck(s, start, i)) {
                 current.add(s.substring(start, i + 1));
-                generateCombinations(i + 1, s, current, result);
+                generateCombinations(s, i + 1, current, result);
                 current.remove(current.size() - 1);
             }
         }
     }
 
-    private boolean isPalindrome(String s, int left, int right) {
+    public boolean palindromeCheck(String s, int left, int right) {
         while (left < right) {
             if (s.charAt(left++) != s.charAt(right--))
                 return false;
