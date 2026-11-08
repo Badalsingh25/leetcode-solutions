@@ -25,7 +25,6 @@ class Solution {
         while (left < right) {
             if (s.charAt(left++) != s.charAt(right--))
                 return false;
-
         }
         return true;
     }
