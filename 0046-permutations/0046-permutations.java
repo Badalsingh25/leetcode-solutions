@@ -2,7 +2,6 @@ class Solution {
     public List<List<Integer>> permute(int[] nums) {
 
         List<List<Integer>> result = new ArrayList<>();
-
         backtrack(0, nums, result);
         return result;
     }
@@ -10,12 +9,11 @@ class Solution {
     private void backtrack(int start, int[] nums, List<List<Integer>> result) {
 
         if (start == nums.length) {
-            List<Integer> temp = new ArrayList<>();
-
+            List<Integer> current = new ArrayList<>();
             for (int num : nums) {
-                temp.add(num);
+                current.add(num);
             }
-            result.add(temp);
+            result.add(current);
             return;
         }
         for (int i = start; i < nums.length; i++) {
@@ -25,9 +23,9 @@ class Solution {
         }
     }
 
-    private void swap(int[] nums, int i, int start) {
-        int temp = nums[i];
-        nums[i] = nums[start];
-        nums[start] = temp;
+    private void swap(int[] nums, int left, int right) {
+        int temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
     }
 }
