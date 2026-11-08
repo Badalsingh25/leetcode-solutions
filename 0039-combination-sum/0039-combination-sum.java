@@ -2,7 +2,6 @@ class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
 
         List<List<Integer>> result = new ArrayList<>();
-
         backtrack(0, candidates, target, new ArrayList<>(), result);
         return result;
     }
@@ -13,14 +12,13 @@ class Solution {
             result.add(new ArrayList<>(current));
             return;
         }
-
         for (int i = start; i < candidates.length; i++) {
-            if (candidates[i] > target)
-                continue;
+            if (target < candidates[i]) continue;
 
-            current.add(candidates[i]);
-            backtrack(i, candidates, target - candidates[i], current, result);
-            current.remove(current.size() - 1);
+                current.add(candidates[i]);
+                backtrack(i, candidates, target - candidates[i], current, result);
+                current.remove(current.size() - 1);
+        
         }
     }
 }
