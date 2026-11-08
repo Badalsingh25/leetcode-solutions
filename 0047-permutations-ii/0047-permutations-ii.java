@@ -2,8 +2,8 @@ class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
 
         Arrays.sort(nums);
-        List<List<Integer>> result = new ArrayList<>();
 
+        List<List<Integer>> result = new ArrayList<>();
         backtrack(0, nums, result);
         return result;
     }
@@ -12,27 +12,26 @@ class Solution {
 
         if (start == nums.length) {
             List<Integer> current = new ArrayList<>();
-
             for (int num : nums) {
                 current.add(num);
             }
             result.add(current);
             return;
         }
-        Set<Integer> used = new HashSet<>();
+        List<Integer> used = new ArrayList<>();
         for (int i = start; i < nums.length; i++) {
             if(used.contains(nums[i])) continue;
             used.add(nums[i]);
 
-            swap(nums, i, start);
+            swap(nums, start, i);
             backtrack(start + 1, nums, result);
-            swap(nums, i, start);
+            swap(nums, start, i);
         }
     }
 
-    private void swap(int[] nums, int i, int start) {
-        int temp = nums[i];
-        nums[i] = nums[start];
-        nums[start] = temp;
+    private void swap(int[] nums, int left, int right) {
+        int temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
     }
 }
