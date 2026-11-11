@@ -13,5 +13,5 @@ GROUP BY Students.student_id,
         Students.student_name,
         Subjects.subject_name
 ORDER BY Students.student_id,
-        Students.student_name;
+        Subjects.subject_name;
 
